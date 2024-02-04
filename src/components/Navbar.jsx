@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Navbar.css';
 import { styled } from 'styled-components';
+import { Search } from '@mui/icons-material';
 
 // Styled-Components
 const Container = styled.div`
@@ -22,6 +23,8 @@ const Language = styled.span`
   cursor: pointer;
 `;
 
+const 
+
 const Center = styled.div`
   flex: 1; // distribute available space proportionally
 `;
@@ -36,6 +39,7 @@ export default function Navbar() {
         <Wrapper>
           <Left>
             <Language>EN</Language>
+            <Search />
           </Left>
           <Center>Center</Center>
           <Right>Right</Right>
