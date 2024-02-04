@@ -9,13 +9,23 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
 `;
+
+const Left = styled.div``;
+const Center = styled.div``;
+const Right = styled.div``;
 
 export default function Navbar() {
   return (
     <>
       <Container>
-        <Wrapper>Navbar</Wrapper>
+        <Wrapper>
+          <Left>Left</Left>
+          <Center>Center</Center>
+          <Right>Right</Right>
+        </Wrapper>
       </Container>
     </>
   );
