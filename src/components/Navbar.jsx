@@ -11,6 +11,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 `;
 
@@ -26,9 +27,15 @@ const Language = styled.span`
 `;
 
 const SearchContainer = styled.div`
-  border: 1px solid lightgray;
+  border: 0.5px solid lightgray;
   display: flex;
   align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+`;
+
+const Input = styled.input`
+  border: none;
 `;
 
 const Center = styled.div`
@@ -46,7 +53,7 @@ export default function Navbar() {
           <Left>
             <Language>EN</Language>
             <SearchContainer>
-              input
+              <Input />
               <Search />
             </SearchContainer>
           </Left>
