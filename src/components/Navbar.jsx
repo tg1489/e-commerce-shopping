@@ -40,7 +40,13 @@ const Input = styled.input`
 
 const Center = styled.div`
   flex: 1; // distribute available space proportionally
+  text-align: center;
 `;
+
+const Logo = styled.h1`
+  font-weight: bold;
+`;
+
 const Right = styled.div`
   flex: 1; // distribute available space proportionally
 `;
@@ -57,7 +63,9 @@ export default function Navbar() {
               <Search />
             </SearchContainer>
           </Left>
-          <Center>Center</Center>
+          <Center>
+            <Logo>7EVEN.</Logo>
+          </Center>
           <Right>Right</Right>
         </Wrapper>
       </Container>
