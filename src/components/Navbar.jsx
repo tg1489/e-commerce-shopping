@@ -2,6 +2,9 @@ import React from 'react';
 import '../css/Navbar.css';
 import { styled } from 'styled-components';
 import { Search } from '@mui/icons-material';
+import Badge from '@mui/material/Badge';
+import Stack from '@mui/material/Stack';
+import MailIcon from '@mui/icons-material/Mail';
 
 // Styled-Components
 const Container = styled.div`
@@ -51,6 +54,11 @@ const Right = styled.div`
   flex: 1; // distribute available space proportionally
 `;
 
+const MenuItem = styled.div`
+  font-size: 14px;
+  cursor: pointer;
+`;
+
 export default function Navbar() {
   return (
     <>
@@ -66,7 +74,15 @@ export default function Navbar() {
           <Center>
             <Logo>7EVEN.</Logo>
           </Center>
-          <Right>Right</Right>
+          <Right>
+            <MenuItem>REGISTER</MenuItem>
+            <MenuItem>SIGN-IN</MenuItem>
+            <MenuItem>
+              <Badge badgeContent={4} color='success'>
+                <MailIcon color='action' />
+              </Badge>
+            </MenuItem>
+          </Right>
         </Wrapper>
       </Container>
     </>
