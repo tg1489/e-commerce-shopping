@@ -16,6 +16,8 @@ const Wrapper = styled.div`
 
 const Left = styled.div`
   flex: 1; // distribute available space proportionally
+  display: flex;
+  align-items: center;
 `;
 
 const Language = styled.span`
@@ -23,7 +25,11 @@ const Language = styled.span`
   cursor: pointer;
 `;
 
-const 
+const SearchContainer = styled.div`
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+`;
 
 const Center = styled.div`
   flex: 1; // distribute available space proportionally
@@ -39,7 +45,10 @@ export default function Navbar() {
         <Wrapper>
           <Left>
             <Language>EN</Language>
-            <Search />
+            <SearchContainer>
+              input
+              <Search />
+            </SearchContainer>
           </Left>
           <Center>Center</Center>
           <Right>Right</Right>
