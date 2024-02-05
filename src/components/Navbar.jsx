@@ -5,6 +5,7 @@ import { Search } from '@mui/icons-material';
 import Badge from '@mui/material/Badge';
 import Stack from '@mui/material/Stack';
 import MailIcon from '@mui/icons-material/Mail';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 // Styled-Components
 const Container = styled.div`
@@ -52,11 +53,15 @@ const Logo = styled.h1`
 
 const Right = styled.div`
   flex: 1; // distribute available space proportionally
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 `;
 
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
+  margin-left: 25px;
 `;
 
 export default function Navbar() {
@@ -68,7 +73,7 @@ export default function Navbar() {
             <Language>EN</Language>
             <SearchContainer>
               <Input />
-              <Search />
+              <Search className='search' />
             </SearchContainer>
           </Left>
           <Center>
@@ -78,8 +83,8 @@ export default function Navbar() {
             <MenuItem>REGISTER</MenuItem>
             <MenuItem>SIGN-IN</MenuItem>
             <MenuItem>
-              <Badge badgeContent={4} color='success'>
-                <MailIcon color='action' />
+              <Badge badgeContent={4} color='primary'>
+                <ShoppingCartOutlinedIcon />
               </Badge>
             </MenuItem>
           </Right>
