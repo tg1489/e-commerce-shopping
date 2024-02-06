@@ -4,6 +4,7 @@ import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
 
 const Container = styled.div`
+  margin-top: 2rem;
   width: 100%;
   height: 100vh;
   display: flex;

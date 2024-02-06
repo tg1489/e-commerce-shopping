@@ -66,30 +66,28 @@ const MenuItem = styled.div`
 
 export default function Navbar() {
   return (
-    <>
-      <Container>
-        <Wrapper>
-          <Left>
-            <Language>EN</Language>
-            <SearchContainer>
-              <Input />
-              <Search className='search' />
-            </SearchContainer>
-          </Left>
-          <Center>
-            <Logo>7EVEN.</Logo>
-          </Center>
-          <Right>
-            <MenuItem>REGISTER</MenuItem>
-            <MenuItem>SIGN-IN</MenuItem>
-            <MenuItem>
-              <Badge badgeContent={4} color='primary'>
-                <ShoppingCartOutlinedIcon />
-              </Badge>
-            </MenuItem>
-          </Right>
-        </Wrapper>
-      </Container>
-    </>
+    <Container>
+      <Wrapper>
+        <Left>
+          <Language>EN</Language>
+          <SearchContainer>
+            <Input />
+            <Search className='search' />
+          </SearchContainer>
+        </Left>
+        <Center>
+          <Logo>7EVEN.</Logo>
+        </Center>
+        <Right>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>SIGN-IN</MenuItem>
+          <MenuItem>
+            <Badge badgeContent={4} color='primary'>
+              <ShoppingCartOutlinedIcon />
+            </Badge>
+          </MenuItem>
+        </Right>
+      </Wrapper>
+    </Container>
   );
 }
