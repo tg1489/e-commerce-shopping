@@ -24,19 +24,21 @@ const Arrow = styled.div`
   //   center arrows vertically:
   top: 0;
   bottom: 0;
-  left: 10px;
+  left: ${(props) => props.direction === 'left' && '10px'};
+  right: ${(props) => props.direction === 'right' && '10px'};
   margin: auto;
   //   end of code for center arrows vertically
+  cursor: pointer;
 `;
 
 export default function Slider() {
   return (
     <Container>
-      <Arrow>
+      <Arrow direction='left'>
         <ArrowLeftOutlinedIcon />
       </Arrow>
 
-      <Arrow>
+      <Arrow direction='right'>
         <ArrowRightOutlined />
       </Arrow>
     </Container>
