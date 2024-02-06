@@ -7,6 +7,7 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
+  background-color: coral;
 `;
 
 const Arrow = styled.div`
@@ -14,6 +15,9 @@ const Arrow = styled.div`
   height: 50px;
   background-color: #fff7f7;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export default function Slider() {
