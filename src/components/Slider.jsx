@@ -9,6 +9,7 @@ const Container = styled.div`
   height: 100vh;
   display: flex;
   background-color: coral;
+  position: relative; // parent arrows
 `;
 
 const Arrow = styled.div`
@@ -19,6 +20,13 @@ const Arrow = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute; // child arrows
+  //   center arrows vertically:
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  margin: auto;
+  //   end of code for center arrows vertically
 `;
 
 export default function Slider() {
