@@ -36,15 +36,20 @@ const Arrow = styled.div`
   opacity: 0.5;
 `;
 
+const Slide = styled.div`
+  display: flex;
+  align-items: center;
+`;
+const ImgContainer = styled.div``;
+const InfoContainer = styled.div``;
+
 export default function Slider() {
   return (
     <Container>
       <Arrow direction='left'>
         <ArrowLeftOutlinedIcon />
       </Arrow>
-        <Wrapper>
-            
-        </Wrapper>
+      <Wrapper></Wrapper>
       <Arrow direction='right'>
         <ArrowRightOutlined />
       </Arrow>
