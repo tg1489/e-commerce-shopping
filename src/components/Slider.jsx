@@ -44,7 +44,7 @@ const ImgContainer = styled.div`
   flex: 1;
 `;
 
-const Image = styled.img``
+const Image = styled.img``;
 
 const InfoContainer = styled.div`
   flex: 1;
@@ -56,7 +56,12 @@ export default function Slider() {
       <Arrow direction='left'>
         <ArrowLeftOutlinedIcon />
       </Arrow>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <ImgContainer>
+          <Image src='https://i.ibb.co/XsdmR2c/1.png' />
+        </ImgContainer>
+        <InfoContainer></InfoContainer>
+      </Wrapper>
       <Arrow direction='right'>
         <ArrowRightOutlined />
       </Arrow>
