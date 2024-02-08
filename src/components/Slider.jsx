@@ -29,6 +29,7 @@ const Arrow = styled.div`
   margin: auto;
   //   end of code for center arrows vertically
   cursor: pointer;
+  opacity: 0.5;
 `;
 
 export default function Slider() {
