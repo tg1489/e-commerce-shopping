@@ -40,8 +40,12 @@ const Slide = styled.div`
   display: flex;
   align-items: center;
 `;
-const ImgContainer = styled.div``;
-const InfoContainer = styled.div``;
+const ImgContainer = styled.div`
+  flex: 1;
+`;
+const InfoContainer = styled.div`
+  flex: 1;
+`;
 
 export default function Slider() {
   return (
