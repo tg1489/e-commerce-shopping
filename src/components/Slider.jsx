@@ -12,6 +12,10 @@ const Container = styled.div`
   position: relative; // parent arrows
 `;
 
+const Wrapper = styled.div`
+  height: 100%;
+`;
+
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
@@ -38,7 +42,9 @@ export default function Slider() {
       <Arrow direction='left'>
         <ArrowLeftOutlinedIcon />
       </Arrow>
-
+        <Wrapper>
+            
+        </Wrapper>
       <Arrow direction='right'>
         <ArrowRightOutlined />
       </Arrow>
