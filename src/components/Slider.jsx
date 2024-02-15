@@ -41,9 +41,12 @@ const Arrow = styled.div`
 const Slide = styled.div`
   display: flex;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 `;
 const ImgContainer = styled.div`
   flex: 1;
+  height: 100%;
 `;
 
 const Image = styled.img``;
