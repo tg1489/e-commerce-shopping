@@ -3,6 +3,7 @@ import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
 import shopping from '../assets/shopping.jpg';
+import '../css/Slider.css';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -58,10 +59,12 @@ export default function Slider() {
         <ArrowLeftOutlinedIcon />
       </Arrow>
       <Wrapper>
-        <ImgContainer>
-          <Image src={shopping} />
-        </ImgContainer>
-        <InfoContainer></InfoContainer>
+        <Slide>
+          <ImgContainer>
+            <Image className='slider-image' src={shopping} />
+          </ImgContainer>
+          <InfoContainer></InfoContainer>
+        </Slide>
       </Wrapper>
       <Arrow direction='right'>
         <ArrowRightOutlined />
