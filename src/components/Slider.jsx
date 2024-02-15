@@ -71,7 +71,13 @@ export default function Slider() {
           <ImgContainer>
             <Image className='slider-image' src={shopping} />
           </ImgContainer>
-          <InfoContainer></InfoContainer>
+          <InfoContainer>
+            <Title>SUMMER SALE</Title>
+            <Desc>
+              DON'T COMPROMISE ON STYLE! GET A FLAT 30% OFF FOR NEW ARRIVALS
+            </Desc>
+            <Button>SHOP NOW</Button>
+          </InfoContainer>
         </Slide>
       </Wrapper>
       <Arrow direction='right'>
