@@ -56,8 +56,15 @@ const InfoContainer = styled.div`
   padding: 50px;
 `;
 
-const Title = styled.h1``;
-const Desc = styled.p``;
+const Title = styled.h1`
+  font-size: 50px;
+`;
+const Desc = styled.p`
+  margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+`;
 const Button = styled.button``;
 
 export default function Slider() {
