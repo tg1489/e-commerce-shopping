@@ -3,7 +3,6 @@ import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
 import shopping from '../assets/shopping.jpg';
-import '../css/Slider.css';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -49,7 +48,9 @@ const ImgContainer = styled.div`
   height: 100%;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  height: 80%;
+`;
 
 const InfoContainer = styled.div`
   flex: 1;
