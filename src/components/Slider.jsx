@@ -2,6 +2,7 @@ import React from 'react';
 import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
+import shopping from '../assets/shopping.jpg';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -58,7 +59,7 @@ export default function Slider() {
       </Arrow>
       <Wrapper>
         <ImgContainer>
-          <Image src='https://i.ibb.co/XsdmR2c/1.png' />
+          <Image src={shopping} />
         </ImgContainer>
         <InfoContainer></InfoContainer>
       </Wrapper>
