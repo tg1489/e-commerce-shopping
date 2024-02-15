@@ -76,7 +76,7 @@ export default function Navbar() {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>7EVEN.</Logo>
+          <Logo>SE7EN.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
