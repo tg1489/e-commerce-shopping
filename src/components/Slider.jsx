@@ -65,7 +65,12 @@ const Desc = styled.p`
   font-weight: 500;
   letter-spacing: 3px;
 `;
-const Button = styled.button``;
+const Button = styled.button`
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+`;
 
 export default function Slider() {
   return (
