@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
@@ -16,6 +16,9 @@ const Container = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
+  transform: translateX(
+    0vw
+  ); // 0 is first slide, -100 is second, -200 is third, etc.
 `;
 
 const Arrow = styled.div`
@@ -36,6 +39,7 @@ const Arrow = styled.div`
   //   end of code for center arrows vertically
   cursor: pointer;
   opacity: 0.5;
+  z-index: 2;
 `;
 
 const Slide = styled.div`
@@ -76,6 +80,9 @@ const Button = styled.button`
 `;
 
 export default function Slider() {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const handleClick = (direction) => {};
+
   return (
     <Container>
       <Arrow direction='left' onClick={() => handleClick('left')}>
