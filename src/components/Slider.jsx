@@ -98,7 +98,7 @@ export default function Slider() {
             <Image className='slider-image' src={shopping} />
           </ImgContainer>
           <InfoContainer>
-            <Title>SUMMER SALE</Title>
+            <Title>WINTER SALE</Title>
             <Desc>
               DON'T COMPROMISE ON STYLE! GET A FLAT 30% OFF FOR NEW ARRIVALS
             </Desc>
@@ -110,7 +110,7 @@ export default function Slider() {
             <Image className='slider-image' src={shopping} />
           </ImgContainer>
           <InfoContainer>
-            <Title>SUMMER SALE</Title>
+            <Title>POPULAR SALE</Title>
             <Desc>
               DON'T COMPROMISE ON STYLE! GET A FLAT 30% OFF FOR NEW ARRIVALS
             </Desc>
