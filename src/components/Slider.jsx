@@ -43,6 +43,7 @@ const Slide = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background-color: #${(props) => props.bg};
 `;
 const ImgContainer = styled.div`
   flex: 1;
@@ -77,11 +78,11 @@ const Button = styled.button`
 export default function Slider() {
   return (
     <Container>
-      <Arrow direction='left'>
+      <Arrow direction='left' onClick={() => handleClick('left')}>
         <ArrowLeftOutlinedIcon />
       </Arrow>
       <Wrapper>
-        <Slide>
+        <Slide bg='f5fafd'>
           <ImgContainer>
             <Image className='slider-image' src={shopping} />
           </ImgContainer>
@@ -93,7 +94,7 @@ export default function Slider() {
             <Button>SHOP NOW</Button>
           </InfoContainer>
         </Slide>
-        <Slide>
+        <Slide bg='fcf1ed'>
           <ImgContainer>
             <Image className='slider-image' src={shopping} />
           </ImgContainer>
@@ -105,7 +106,7 @@ export default function Slider() {
             <Button>SHOP NOW</Button>
           </InfoContainer>
         </Slide>
-        <Slide>
+        <Slide bg='fbf0f4'>
           <ImgContainer>
             <Image className='slider-image' src={shopping} />
           </ImgContainer>
@@ -118,7 +119,7 @@ export default function Slider() {
           </InfoContainer>
         </Slide>
       </Wrapper>
-      <Arrow direction='right'>
+      <Arrow direction='right' onClick={() => handleClick('right')}>
         <ArrowRightOutlined />
       </Arrow>
     </Container>
