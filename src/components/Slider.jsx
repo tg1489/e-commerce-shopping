@@ -10,10 +10,12 @@ const Container = styled.div`
   height: 100vh;
   display: flex;
   position: relative; // parent arrows
+  overflow: hidden; // hides slider so you have to click it in order to get to next slide
 `;
 
 const Wrapper = styled.div`
   height: 100%;
+  display: flex;
 `;
 
 const Arrow = styled.div`
