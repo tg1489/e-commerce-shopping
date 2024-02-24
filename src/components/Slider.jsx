@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   transform: translateX(
-    2 * -100vw
+    ${(props) => props.slideIndex * -100}vw
   ); // 0 is first slide, -100 is second, -200 is third, etc.
 `;
 
