@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   transform: translateX(
-    0vw
+    2 * -100vw
   ); // 0 is first slide, -100 is second, -200 is third, etc.
 `;
 
@@ -96,7 +96,7 @@ export default function Slider() {
         <ArrowLeftOutlinedIcon />
       </Arrow>
 
-      <Wrapper>
+      <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => {
           return (
             <Slide bg={item.bg} key={item.id}>
