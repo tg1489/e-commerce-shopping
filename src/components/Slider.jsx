@@ -3,6 +3,7 @@ import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
 import shopping from '../assets/shopping.jpg';
+import { sliderItems } from '../data';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -88,43 +89,22 @@ export default function Slider() {
       <Arrow direction='left' onClick={() => handleClick('left')}>
         <ArrowLeftOutlinedIcon />
       </Arrow>
+
       <Wrapper>
-        <Slide bg='f5fafd'>
-          <ImgContainer>
-            <Image className='slider-image' src={shopping} />
-          </ImgContainer>
-          <InfoContainer>
-            <Title>SUMMER SALE</Title>
-            <Desc>
-              DON'T COMPROMISE ON STYLE! GET A FLAT 30% OFF FOR NEW ARRIVALS
-            </Desc>
-            <Button>SHOP NOW</Button>
-          </InfoContainer>
-        </Slide>
-        <Slide bg='fcf1ed'>
-          <ImgContainer>
-            <Image className='slider-image' src={shopping} />
-          </ImgContainer>
-          <InfoContainer>
-            <Title>WINTER SALE</Title>
-            <Desc>
-              DON'T COMPROMISE ON STYLE! GET A FLAT 30% OFF FOR NEW ARRIVALS
-            </Desc>
-            <Button>SHOP NOW</Button>
-          </InfoContainer>
-        </Slide>
-        <Slide bg='fbf0f4'>
-          <ImgContainer>
-            <Image className='slider-image' src={shopping} />
-          </ImgContainer>
-          <InfoContainer>
-            <Title>POPULAR SALE</Title>
-            <Desc>
-              DON'T COMPROMISE ON STYLE! GET A FLAT 30% OFF FOR NEW ARRIVALS
-            </Desc>
-            <Button>SHOP NOW</Button>
-          </InfoContainer>
-        </Slide>
+        {sliderItems.map((item) => {
+          return (
+            <Slide bg={item.bg} key={item.id}>
+              <ImgContainer>
+                <Image className='slider-image' src={item.img} />
+              </ImgContainer>
+              <InfoContainer>
+                <Title>{item.title}</Title>
+                <Desc>{item.desc}</Desc>
+                <Button>SHOP NOW</Button>
+              </InfoContainer>
+            </Slide>
+          );
+        })}
       </Wrapper>
       <Arrow direction='right' onClick={() => handleClick('right')}>
         <ArrowRightOutlined />
