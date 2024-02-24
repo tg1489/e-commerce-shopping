@@ -76,7 +76,7 @@ export default function Navbar() {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>SE7EN.</Logo>
+          <Logo>TRENDZ.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
