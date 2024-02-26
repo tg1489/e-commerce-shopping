@@ -1,5 +1,16 @@
 import React from 'react';
+import { styled } from '@mui/material';
+import { categories } from '../utils/data';
+import CategoryItem from './CategoryItem';
+
+const Container = styled.div``;
 
 export default function Categories() {
-  return <Container>Hello</Container>;
+  return (
+    <Container>
+      {categories.map((item) => (
+        <CategoryItem item={item} />
+      ))}
+    </Container>
+  );
 }
