@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
-import shopping from '../assets/shopping.jpg';
 import { sliderItems } from '../utils/data';
 
 const Container = styled.div`
@@ -17,6 +16,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
+  transition: all 1.5s ease; // Makes slider a smooth transition to next sale.
   transform: translateX(
     ${(props) => props.slideIndex * -100}vw
   ); // 0 is first slide, -100 is second, -200 is third, etc.

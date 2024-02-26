@@ -1,4 +1,4 @@
-import shopping from '../assets/shopping.jpg';
+import shopping from '../assets/shopping.png';
 import autumn from '../assets/autumn.jpg';
 import popular from '../assets/popular.jpg';
 
