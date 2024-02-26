@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
 import shopping from '../assets/shopping.jpg';
-import { sliderItems } from '../data';
+import { sliderItems } from '../utils/data';
 
 const Container = styled.div`
   margin-top: 2rem;
