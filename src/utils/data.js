@@ -1,6 +1,6 @@
-import shopping from './assets/shopping.jpg';
-import autumn from './assets/autumn.jpg';
-import popular from './assets/popular.jpg';
+import shopping from '../assets/shopping.jpg';
+import autumn from '../assets/autumn.jpg';
+import popular from '../assets/popular.jpg';
 
 export const sliderItems = [
   {
