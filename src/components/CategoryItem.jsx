@@ -1,8 +1,8 @@
-import { styled } from '@mui/material';
+import { styled } from 'styled-components';
 import React from 'react';
 
-const Container = styled.div``
+const Container = styled.div``;
 
-export default function CategoryItem() {
+export default function CategoryItem({ item }) {
   return <Container></Container>;
 }
