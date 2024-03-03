@@ -1,6 +1,10 @@
 import shopping from '../assets/shopping.png';
 import autumn from '../assets/autumn.jpg';
 import popular from '../assets/popular.jpg';
+import lightjacket from '../assets/lightjacket.jpg';
+import loungewear from '../assets/loungewear clothes.jpeg';
+import shirtstyle from '../assets/shirt style.jpg';
+import { light } from '@mui/material/styles/createPalette';
 
 export const sliderItems = [
   {
@@ -27,7 +31,7 @@ export const sliderItems = [
 ];
 
 export const categories = [
-  { id: 1, img: '', title: 'SHIRT STYLE!' },
-  { id: 2, img: '', title: 'LOUNGEWEAR LOVE' },
-  { id: 3, img: '', title: 'LIGHT JACKETS' },
+  { id: 1, img: shirtstyle, title: 'SHIRT STYLE!' },
+  { id: 2, img: loungewear, title: 'LOUNGEWEAR LOVE' },
+  { id: 3, img: lightjacket, title: 'LIGHT JACKETS' },
 ];
