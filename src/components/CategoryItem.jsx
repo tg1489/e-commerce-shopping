@@ -24,7 +24,10 @@ const Info = styled.div`
   align-items: center;
   justify-content: center;
 `;
-const Title = styled.h1``;
+const Title = styled.h1`
+  color: #fff;
+  margin-bottom: 20px;
+`;
 const Button = styled.button``;
 
 export default function CategoryItem({ item }) {
