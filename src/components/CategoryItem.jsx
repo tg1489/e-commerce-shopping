@@ -28,7 +28,13 @@ const Title = styled.h1`
   color: #fff;
   margin-bottom: 20px;
 `;
-const Button = styled.button``;
+const Button = styled.button`
+  border: 0;
+  padding: 10px;
+  background-color: #fff;
+  color: gray;
+  cursor: pointer;
+`;
 
 export default function CategoryItem({ item }) {
   return (
