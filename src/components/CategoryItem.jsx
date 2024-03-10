@@ -14,6 +14,15 @@ const Image = styled.img`
 `;
 const Info = styled.div`
   position: absolute;
+  top: 0; // start at the top
+  left: 0; // and left position to add info inside image
+  width: 100%;
+  height: 100%;
+  // Center the info below:
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 const Title = styled.h1``;
 const Button = styled.button``;
