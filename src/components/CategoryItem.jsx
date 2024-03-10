@@ -34,6 +34,7 @@ const Button = styled.button`
   background-color: #fff;
   color: gray;
   cursor: pointer;
+  font-weight: 600;
 `;
 
 export default function CategoryItem({ item }) {
