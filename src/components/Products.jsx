@@ -3,7 +3,10 @@ import styled from 'styled-components';
 import { popularProducts } from '../utils/data';
 import ProductItem from './ProductItem';
 
-const Container = styled.div``;
+const Container = styled.div`
+  padding: 20px;
+  display: flex;
+`;
 
 export default function Products() {
   return (
