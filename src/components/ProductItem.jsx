@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const Container = styled.div``;
 
@@ -16,6 +17,9 @@ export default function ProductItem({ item }) {
         </Icon>
         <Icon>
           <SearchIcon />
+        </Icon>
+        <Icon>
+          <FavoriteBorderIcon />
         </Icon>
       </Info>
     </Container>
