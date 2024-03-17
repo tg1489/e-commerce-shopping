@@ -4,7 +4,15 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
-const Container = styled.div``;
+const Container = styled.div`
+  flex: 1;
+  margin: 5px;
+`;
+
+const Circle = styled.div``;
+const Image = styled.img``;
+const Info = styled.div``;
+const Icon = styled.div``;
 
 export default function ProductItem({ item }) {
   return (
