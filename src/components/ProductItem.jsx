@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Container = styled.div``;
 
@@ -10,7 +11,12 @@ export default function ProductItem({ item }) {
       <Circle />
       <Image src={item.img} />
       <Info>
-        <Icon></Icon>
+        <Icon>
+          <ShoppingCartIcon />
+        </Icon>
+        <Icon>
+          <SearchIcon />
+        </Icon>
       </Info>
     </Container>
   );
