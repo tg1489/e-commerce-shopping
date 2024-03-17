@@ -9,7 +9,7 @@ export default function Products() {
   return (
     <Container>
       {popularProducts.map((item) => {
-        <ProductItem item={item} />;
+        <ProductItem key={item.id} item={item} />;
       })}
     </Container>
   );
