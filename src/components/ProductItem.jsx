@@ -13,13 +13,29 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #f5fbfd;
+  position: relative;
 `;
 
-const Circle = styled.div``;
+const Circle = styled.div`
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+`;
 const Image = styled.img`
   height: 75%;
+  z-index: 2;
 `;
-const Info = styled.div``;
+const Info = styled.div`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  z-index: 3;
+`;
 const Icon = styled.div``;
 
 export default function ProductItem({ item }) {
