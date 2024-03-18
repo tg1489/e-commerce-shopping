@@ -5,14 +5,14 @@ import lightjacket from '../assets/lightjacket.jpg';
 import loungewear from '../assets/loungewear clothes.jpeg';
 import shirtstyle from '../assets/shirt style.jpg';
 import { light } from '@mui/material/styles/createPalette';
-import prod1 from '../assets/prod1.jpg';
-import prod2 from '../assets/prod2.jpg';
-import prod3 from '../assets/prod3.jpg';
-import prod4 from '../assets/prod4.jpg';
-import prod5 from '../assets/prod5.jpg';
-import prod6 from '../assets/prod6.jpg';
-import prod7 from '../assets/prod7.jpg';
-import prod8 from '../assets/prod8.jpg';
+import prod1 from '../assets/prod1.jpeg';
+import prod2 from '../assets/prod2.jpeg';
+import prod3 from '../assets/prod3.jpeg';
+import prod4 from '../assets/prod4.jpeg';
+import prod5 from '../assets/prod5.jpeg';
+import prod6 from '../assets/prod6.jpeg';
+import prod7 from '../assets/prod7.jpeg';
+import prod8 from '../assets/prod8.jpeg';
 
 export const sliderItems = [
   {
