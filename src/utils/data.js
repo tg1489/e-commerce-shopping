@@ -5,6 +5,14 @@ import lightjacket from '../assets/lightjacket.jpg';
 import loungewear from '../assets/loungewear clothes.jpeg';
 import shirtstyle from '../assets/shirt style.jpg';
 import { light } from '@mui/material/styles/createPalette';
+import prod1 from '../assets/prod1.jpg';
+import prod2 from '../assets/prod2.jpg';
+import prod3 from '../assets/prod3.jpg';
+import prod4 from '../assets/prod4.jpg';
+import prod5 from '../assets/prod5.jpg';
+import prod6 from '../assets/prod6.jpg';
+import prod7 from '../assets/prod7.jpg';
+import prod8 from '../assets/prod8.jpg';
 
 export const sliderItems = [
   {
@@ -37,12 +45,12 @@ export const categories = [
 ];
 
 export const popularProducts = [
-  { id: 1, img: '' },
-  { id: 2, img: '' },
-  { id: 3, img: '' },
-  { id: 4, img: '' },
-  { id: 5, img: '' },
-  { id: 6, img: '' },
-  { id: 7, img: '' },
-  { id: 8, img: '' },
+  { id: 1, img: prod1 },
+  { id: 2, img: prod2 },
+  { id: 3, img: prod3 },
+  { id: 4, img: prod4 },
+  { id: 5, img: prod5 },
+  { id: 6, img: prod6 },
+  { id: 7, img: prod7 },
+  { id: 8, img: prod8 },
 ];
