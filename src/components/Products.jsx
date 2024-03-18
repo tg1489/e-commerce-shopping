@@ -11,9 +11,9 @@ const Container = styled.div`
 export default function Products() {
   return (
     <Container>
-      {popularProducts.map((item) => {
-        <ProductItem key={item.id} item={item} />;
-      })}
+      {popularProducts.map((item) => (
+        <ProductItem key={item.id} item={item} />
+      ))}
     </Container>
   );
 }
