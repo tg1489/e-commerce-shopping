@@ -11,9 +11,12 @@ export default function Footer() {
   `;
   const Left = styled.div`
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   `;
 
-  const Logo = styled.div``;
+  const Logo = styled.h1``;
   const Desc = styled.p``;
   const SocialContainer = styled.div``;
   const SocialIcon = styled.div``;
