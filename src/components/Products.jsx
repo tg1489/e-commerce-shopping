@@ -6,6 +6,7 @@ import ProductItem from './ProductItem';
 const Container = styled.div`
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
 `;
 
 export default function Products() {
