@@ -9,6 +9,10 @@ const Container = styled.div`
   margin: 5px;
   min-width: 280px;
   height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fbfd;
 `;
 
 const Circle = styled.div``;
