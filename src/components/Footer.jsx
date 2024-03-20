@@ -36,6 +36,7 @@ export default function Footer() {
 
   const Right = styled.div`
     flex: 1;
+    padding: 20px;
   `;
 
   return (
