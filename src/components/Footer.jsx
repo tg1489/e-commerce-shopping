@@ -31,6 +31,7 @@ export default function Footer() {
 
   const Center = styled.div`
     flex: 1;
+    padding: 20px;
   `;
 
   const Right = styled.div`
