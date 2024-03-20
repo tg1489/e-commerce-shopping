@@ -17,9 +17,17 @@ export default function Footer() {
   `;
 
   const Logo = styled.h1``;
-  const Desc = styled.p``;
-  const SocialContainer = styled.div``;
-  const SocialIcon = styled.div``;
+  const Desc = styled.p`
+    margin: 20px 0px;
+  `;
+  const SocialContainer = styled.div`
+    display: flex;
+  `;
+  const SocialIcon = styled.div`
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  `;
 
   const Center = styled.div`
     flex: 1;
