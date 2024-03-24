@@ -49,6 +49,7 @@ export default function Footer() {
 
   const ListItem = styled.li`
     width: 50%;
+    margin-bottom: 10px;
   `;
 
   const Right = styled.div`
@@ -95,7 +96,12 @@ export default function Footer() {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <Right></Right>
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem>622 Dixie Path, South Tobinchester 98336</ContactItem>
+        <ContactItem>+1 555 555 5555</ContactItem>
+        <ContactItem>contact@trendz.dev</ContactItem>
+      </Right>
     </Container>
   );
 }
