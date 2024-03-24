@@ -60,8 +60,15 @@ export default function Footer() {
     padding: 20px;
   `;
 
-  const ContactItem = styled.div``;
-  const Payment = styled.img``;
+  const ContactItem = styled.div`
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  `;
+
+  const Payment = styled.img`
+    width: 50%;
+  `;
 
   return (
     <Container>
@@ -105,15 +112,15 @@ export default function Footer() {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <RoomIcon />
+          <RoomIcon style={{ marginRight: '10px' }} />
           622 Dixie Path, South Tobinchester 98336
         </ContactItem>
         <ContactItem>
-          <PhoneIcon />
+          <PhoneIcon style={{ marginRight: '10px' }} />
           +1 555 555 5555
         </ContactItem>
         <ContactItem>
-          <MailOutlineIcon />
+          <MailOutlineIcon style={{ marginRight: '10px' }} />
           contact@trendz.dev
         </ContactItem>
         <Payment src='https://i.ibb.co/Qfvn4z6/payment.png' />
