@@ -38,7 +38,11 @@ export default function Footer() {
     margin-bottom: 30px;
   `;
 
-  const List = styled.ul``;
+  const List = styled.ul`
+    // ul has its own margin and padding
+    margin: 0px;
+    padding: 0px;
+  `;
 
   const ListItem = styled.li``;
 
