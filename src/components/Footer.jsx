@@ -4,6 +4,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import RoomIcon from '@mui/icons-material/Room';
+import PhoneIcon from '@mui/icons-material/Phone';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 export default function Footer() {
   const Container = styled.div`
@@ -57,6 +60,9 @@ export default function Footer() {
     padding: 20px;
   `;
 
+  const ContactItem = styled.div``;
+  const Payment = styled.img``;
+
   return (
     <Container>
       <Left>
@@ -98,9 +104,19 @@ export default function Footer() {
       </Center>
       <Right>
         <Title>Contact</Title>
-        <ContactItem>622 Dixie Path, South Tobinchester 98336</ContactItem>
-        <ContactItem>+1 555 555 5555</ContactItem>
-        <ContactItem>contact@trendz.dev</ContactItem>
+        <ContactItem>
+          <RoomIcon />
+          622 Dixie Path, South Tobinchester 98336
+        </ContactItem>
+        <ContactItem>
+          <PhoneIcon />
+          +1 555 555 5555
+        </ContactItem>
+        <ContactItem>
+          <MailOutlineIcon />
+          contact@trendz.dev
+        </ContactItem>
+        <Payment src='' />
       </Right>
     </Container>
   );
