@@ -116,7 +116,7 @@ export default function Footer() {
           <MailOutlineIcon />
           contact@trendz.dev
         </ContactItem>
-        <Payment src='' />
+        <Payment src='https://i.ibb.co/Qfvn4z6/payment.png' />
       </Right>
     </Container>
   );
