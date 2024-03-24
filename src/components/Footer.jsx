@@ -43,9 +43,13 @@ export default function Footer() {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
   `;
 
-  const ListItem = styled.li``;
+  const ListItem = styled.li`
+    width: 50%;
+  `;
 
   const Right = styled.div`
     flex: 1;
