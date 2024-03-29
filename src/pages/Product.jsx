@@ -4,5 +4,5 @@ import styled from 'styled-components';
 const Container = styled.div``;
 
 export default function Product() {
-  return <div>Product</div>;
+  return <Container>Product</Container>;
 }
