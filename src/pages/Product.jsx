@@ -41,12 +41,21 @@ const Price = styled.span`
 `;
 
 const FilterContainer = styled.div`
+  width: 50%;
+  margin: 30px 0px;
   display: flex;
+  justify-content: space-between;
 `;
 
-const Filter = styled.div``;
+const Filter = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
-const FilterTitle = styled.span``;
+const FilterTitle = styled.span`
+  font-size: 20px;
+  font-weight: 200;
+`;
 
 const FilterColor = styled.div``;
 
