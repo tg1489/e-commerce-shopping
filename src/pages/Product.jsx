@@ -6,6 +6,10 @@ import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 
 const Container = styled.div``;
+const Wrapper = styled.div``;
+const ImgContainer = styled.div``;
+const Image = styled.div``;
+const InfoContainer = styled.div``;
 
 export default function Product() {
   return (
