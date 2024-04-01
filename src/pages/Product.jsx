@@ -40,6 +40,20 @@ const Price = styled.span`
   font-size: 40px;
 `;
 
+const FilterContainer = styled.div`
+  display: flex;
+`;
+
+const Filter = styled.div``;
+
+const FilterTitle = styled.span``;
+
+const FilterColor = styled.div``;
+
+const FilterSize = styled.select``;
+
+const FilterSizeOption = styled.option``;
+
 export default function Product() {
   return (
     <Container>
@@ -64,6 +78,16 @@ export default function Product() {
               <FilterColor color='#000' />
               <FilterColor color='darkblue' />
               <FilterColor color='gray' />
+            </Filter>
+            <Filter>
+              <FilterTitle>Size</FilterTitle>
+              <FilterSize>
+                <FilterSizeOption>XS</FilterSizeOption>
+                <FilterSizeOption>S</FilterSizeOption>
+                <FilterSizeOption>M</FilterSizeOption>
+                <FilterSizeOption>L</FilterSizeOption>
+                <FilterSizeOption>XL</FilterSizeOption>
+              </FilterSize>
             </Filter>
           </FilterContainer>
         </InfoContainer>
