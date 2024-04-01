@@ -27,11 +27,18 @@ const InfoContainer = styled.div`
   padding: 0px 50px;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-weight: 200;
+`;
 
-const Desc = styled.p``;
+const Desc = styled.p`
+  margin: 20px 0px;
+`;
 
-const Price = styled.span``;
+const Price = styled.span`
+  font-weight: 100;
+  font-size: 40px;
+`;
 
 export default function Product() {
   return (
@@ -51,6 +58,9 @@ export default function Product() {
             quae dolore. Voluptas.
           </Desc>
           <Price>$20</Price>
+          <FilterContainer>
+            <Filter></Filter>
+          </FilterContainer>
         </InfoContainer>
       </Wrapper>
 
