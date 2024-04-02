@@ -113,8 +113,10 @@ export default function Product() {
           <AddContainer>
             <AmountContainer>
               <Remove />
+              <Amount>1</Amount>
               <Add />
             </AmountContainer>
+            <Button>ADD TO CART</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>
