@@ -100,9 +100,14 @@ const Amount = styled.span`
 
 const Button = styled.button`
   padding: 15px;
-  border: 1px solid teal;
+  border: 2px solid teal;
   background-color: #fff;
   cursor: pointer;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #f8f4f4;
+  }
 `;
 
 export default function Product() {
