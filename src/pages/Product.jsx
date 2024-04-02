@@ -74,6 +74,14 @@ const FilterSize = styled.select`
 
 const FilterSizeOption = styled.option``;
 
+const AddContainer = styled.div``;
+
+const AmountContainer = styled.div``;
+
+const Amount = styled.span``;
+
+const Button = styled.button``;
+
 export default function Product() {
   return (
     <Container>
