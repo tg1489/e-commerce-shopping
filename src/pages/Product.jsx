@@ -4,6 +4,7 @@ import Announcement from '../components/Announcement';
 import Navbar from '../components/Navbar';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
+import { Add, Remove } from '@mui/icons-material';
 
 const Container = styled.div``;
 
@@ -109,6 +110,12 @@ export default function Product() {
               </FilterSize>
             </Filter>
           </FilterContainer>
+          <AddContainer>
+            <AmountContainer>
+              <Remove />
+              <Add />
+            </AmountContainer>
+          </AddContainer>
         </InfoContainer>
       </Wrapper>
 
