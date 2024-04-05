@@ -23,9 +23,15 @@ const Wrapper = styled.div`
   background-color: #fff;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 24px;
+  font-weight: 300;
+`;
 
-const Form = styled.form``;
+const Form = styled.form`
+  display: flex;
+  font-wrap: wrap;
+`;
 
 const Input = styled.input``;
 
