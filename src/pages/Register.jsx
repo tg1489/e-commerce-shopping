@@ -4,7 +4,14 @@ import styled from 'styled-components';
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('https://images.pexels.com/photos/5872378/pexels-photo-5872378.jpeg')
+      center;
+  background-size: cover;
+  overflow: hidden;
 `;
 
 const Wrapper = styled.div``;
