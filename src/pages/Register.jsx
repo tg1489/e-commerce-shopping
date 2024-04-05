@@ -30,10 +30,15 @@ const Title = styled.h1`
 
 const Form = styled.form`
   display: flex;
-  font-wrap: wrap;
+  flex-wrap: wrap;
 `;
 
-const Input = styled.input``;
+const Input = styled.input`
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+`;
 
 const Agreement = styled.span``;
 
