@@ -12,9 +12,16 @@ const Container = styled.div`
       center;
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  padding: 20px;
+  width: 40%;
+  background-color: #fff;
+`;
 
 const Title = styled.h1``;
 
