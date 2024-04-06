@@ -10,7 +10,8 @@ export default function App() {
     <div>
       {/* <Home /> */}
       {/* <Product /> */}
-      <Register />
+      {/* <Register /> */}
+      <Login />
     </div>
   );
 }
