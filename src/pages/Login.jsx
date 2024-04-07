@@ -49,7 +49,9 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const Link = styled.a``;
+const Link = styled.a`
+  margin: 5px 0px;
+`;
 
 export default function Login() {
   return (
