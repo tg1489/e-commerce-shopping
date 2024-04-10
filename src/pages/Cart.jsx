@@ -1,8 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navbar from '../components/Navbar';
+import Announcement from '../components/Announcement';
 
 const Container = styled.div``;
 
 export default function Cart() {
-  return <Container>Cart</Container>;
+  return (
+    <Container>
+      <Announcement />
+      <Navbar />
+    </Container>
+  );
 }
