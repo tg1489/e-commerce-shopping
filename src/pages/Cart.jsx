@@ -5,8 +5,19 @@ import Announcement from '../components/Announcement';
 import Footer from '../components/Footer';
 
 const Container = styled.div``;
-const Wrapper = styled.div``;
-const Title = styled.h1``;
+
+const Wrapper = styled.div`
+  padding: 20px;
+`;
+
+const Title = styled.h1`
+  font-weight: 300;
+  text-align: center;
+`;
+
+const Top = styled.div``;
+
+const Bottom = styled.div``;
 
 export default function Cart() {
   return (
@@ -15,6 +26,8 @@ export default function Cart() {
       <Navbar />
       <Wrapper>
         <Title>YOUR BAG</Title>
+        <Top></Top>
+        <Bottom></Bottom>
       </Wrapper>
 
       <Footer />
