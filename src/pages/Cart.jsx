@@ -69,7 +69,26 @@ export default function Cart() {
           <TopButton type='filled'>CHECKOUT NOW</TopButton>
         </Top>
         <Bottom>
-          <Info>info</Info>
+          <Info>
+            <Product>
+              <ProductDetail>
+                <Image src='https://images.express.com/is/image/expressfashion/0034_01804621_3356_a003?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon' />
+                <Details>
+                  <ProductName>
+                    <b>Product:</b> MENS HAT
+                  </ProductName>
+                  <ProductId>
+                    <b>ID:</b> 943893582
+                  </ProductId>
+                  <ProductColor />
+                  <ProductSize>
+                    <b>Size:</b> 37.5
+                  </ProductSize>
+                </Details>
+              </ProductDetail>
+              <PriceDetail></PriceDetail>
+            </Product>
+          </Info>
           <Summary>summary</Summary>
         </Bottom>
       </Wrapper>
