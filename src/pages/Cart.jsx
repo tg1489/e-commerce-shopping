@@ -40,7 +40,18 @@ const TopText = styled.span`
   margin: 0px 10px;
 `;
 
-const Bottom = styled.div``;
+const Bottom = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Info = styled.div`
+  flex: 3;
+`;
+
+const Summary = styled.div`
+  flex: 1;
+`;
 
 export default function Cart() {
   return (
@@ -57,7 +68,10 @@ export default function Cart() {
           </TopTexts>
           <TopButton type='filled'>CHECKOUT NOW</TopButton>
         </Top>
-        <Bottom></Bottom>
+        <Bottom>
+          <Info>info</Info>
+          <Summary>summary</Summary>
+        </Bottom>
       </Wrapper>
 
       <Footer />
