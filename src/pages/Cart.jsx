@@ -53,13 +53,23 @@ const Product = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-const ProductDetail = styled.div``;
+
+const ProductDetail = styled.div`
+  flex: 2;
+`;
+
 const PriceDetail = styled.div``;
+
 const Image = styled.img``;
+
 const Details = styled.div``;
+
 const ProductName = styled.span``;
+
 const ProductId = styled.span``;
+
 const ProductColor = styled.div``;
+
 const ProductSize = styled.span``;
 
 const Summary = styled.div`
