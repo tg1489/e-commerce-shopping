@@ -56,21 +56,34 @@ const Product = styled.div`
 
 const ProductDetail = styled.div`
   flex: 2;
+  display: flex;
 `;
 
 const PriceDetail = styled.div`
   flex: 1;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  width: 200px;
+`;
 
-const Details = styled.div``;
+const Details = styled.div`
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+`;
 
 const ProductName = styled.span``;
 
 const ProductId = styled.span``;
 
-const ProductColor = styled.div``;
+const ProductColor = styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${(props) => props.color};
+`;
 
 const ProductSize = styled.span``;
 
@@ -97,17 +110,17 @@ export default function Cart() {
           <Info>
             <Product>
               <ProductDetail>
-                <Image src='https://images.express.com/is/image/expressfashion/0034_01804621_3356_a003?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon' />
+                <Image src='https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F02%2Fnike-air-force-1-flyease-release-fd1146-100-release-info-001.jpg?cbr=1&q=90' />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> MENS HAT
+                    <b>Product:</b> NIKE AIR JORDAN 1
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 943893582
                   </ProductId>
-                  <ProductColor />
+                  <ProductColor color='tan' />
                   <ProductSize>
-                    <b>Size:</b> 37.5
+                    <b>Size:</b> 9.5
                   </ProductSize>
                 </Details>
               </ProductDetail>
