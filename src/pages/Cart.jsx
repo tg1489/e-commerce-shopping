@@ -49,6 +49,16 @@ const Info = styled.div`
   flex: 3;
 `;
 
+const Product = styled.div``;
+const ProductDetail = styled.div``;
+const PriceDetail = styled.div``;
+const Image = styled.img``;
+const Details = styled.div``;
+const ProductName = styled.div``;
+const ProductId = styled.div``;
+const ProductColor = styled.div``;
+const ProductSize = styled.div``;
+
 const Summary = styled.div`
   flex: 1;
 `;
