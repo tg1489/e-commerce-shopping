@@ -68,6 +68,12 @@ const PriceDetail = styled.div`
   justify-content: center;
 `;
 
+const ProductAmountContainer = styled.div``;
+
+const ProductAmount = styled.div``;
+
+const ProductPrice = styled.div``;
+
 const Image = styled.img`
   width: 200px;
 `;
@@ -135,6 +141,7 @@ export default function Cart() {
                   <ProductAmount>2</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
+                <ProductPrice>$ 110</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
