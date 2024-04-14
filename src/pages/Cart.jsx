@@ -163,17 +163,17 @@ export default function Cart() {
             <Hr />
             <Product>
               <ProductDetail>
-                <Image src='https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F02%2Fnike-air-force-1-flyease-release-fd1146-100-release-info-001.jpg?cbr=1&q=90' />
+                <Image src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F36%2F21%2F3621fdba86e91915508be3610601a639d7d33f3f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_accessories_hats_beanies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]' />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> NIKE AIR JORDAN 1
+                    <b>Product:</b> KNIT HAT
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 943893582
                   </ProductId>
-                  <ProductColor color='tan' />
+                  <ProductColor color='maroon' />
                   <ProductSize>
-                    <b>Size:</b> 9.5
+                    <b>Size:</b> M
                   </ProductSize>
                 </Details>
               </ProductDetail>
