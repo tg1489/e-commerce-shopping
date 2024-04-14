@@ -110,6 +110,8 @@ const ProductSize = styled.span``;
 
 const Hr = styled.hr`
   background-color: #eee;
+  border: none;
+  height: 1px;
 `;
 
 const Summary = styled.div`
