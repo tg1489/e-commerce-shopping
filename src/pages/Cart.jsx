@@ -71,6 +71,7 @@ const PriceDetail = styled.div`
 const ProductAmountContainer = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 `;
 
 const ProductAmount = styled.div`
@@ -78,7 +79,10 @@ const ProductAmount = styled.div`
   margin: 5px;
 `;
 
-const ProductPrice = styled.div``;
+const ProductPrice = styled.div`
+  font-size: 30px;
+  font-weight: 200;
+`;
 
 const Image = styled.img`
   width: 200px;
@@ -104,6 +108,10 @@ const ProductColor = styled.div`
 
 const ProductSize = styled.span``;
 
+const Hr = styled.hr`
+  background-color: #eee;
+`;
+
 const Summary = styled.div`
   flex: 1;
 `;
@@ -125,6 +133,32 @@ export default function Cart() {
         </Top>
         <Bottom>
           <Info>
+            <Product>
+              <ProductDetail>
+                <Image src='https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F02%2Fnike-air-force-1-flyease-release-fd1146-100-release-info-001.jpg?cbr=1&q=90' />
+                <Details>
+                  <ProductName>
+                    <b>Product:</b> NIKE AIR JORDAN 1
+                  </ProductName>
+                  <ProductId>
+                    <b>ID:</b> 943893582
+                  </ProductId>
+                  <ProductColor color='tan' />
+                  <ProductSize>
+                    <b>Size:</b> 9.5
+                  </ProductSize>
+                </Details>
+              </ProductDetail>
+              <PriceDetail>
+                <ProductAmountContainer>
+                  <Add />
+                  <ProductAmount>2</ProductAmount>
+                  <Remove />
+                </ProductAmountContainer>
+                <ProductPrice>$ 110</ProductPrice>
+              </PriceDetail>
+            </Product>
+            <Hr />
             <Product>
               <ProductDetail>
                 <Image src='https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F02%2Fnike-air-force-1-flyease-release-fd1146-100-release-info-001.jpg?cbr=1&q=90' />
