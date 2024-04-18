@@ -180,10 +180,10 @@ export default function Cart() {
               <PriceDetail>
                 <ProductAmountContainer>
                   <Add />
-                  <ProductAmount>2</ProductAmount>
+                  <ProductAmount>1</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 110</ProductPrice>
+                <ProductPrice>$ 25</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
