@@ -157,7 +157,7 @@ export default function Cart() {
                   <ProductAmount>2</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 110</ProductPrice>
+                <ProductPrice>$ 220</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
@@ -187,7 +187,26 @@ export default function Cart() {
               </PriceDetail>
             </Product>
           </Info>
-          <Summary>summary</Summary>
+          <Summary>
+            <SummaryTitle>ORDER SUMMARY</SummaryTitle>
+            <SummaryItem>
+              <SummaryItemText>Subtotal</SummaryItemText>
+              <SummaryItemPrice>$ 245</SummaryItemPrice>
+            </SummaryItem>
+            <SummaryItem>
+              <SummaryItemText>Estimated Shipping</SummaryItemText>
+              <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+            </SummaryItem>
+            <SummaryItem>
+              <SummaryItemText>Shipping Discount</SummaryItemText>
+              <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+            </SummaryItem>
+            <SummaryItem>
+              <SummaryItemText type='total'>Total</SummaryItemText>
+              <SummaryItemPrice>$ 245</SummaryItemPrice>
+            </SummaryItem>
+            <Button>CHECKOUT NOW</Button>
+          </Summary>
         </Bottom>
       </Wrapper>
 
