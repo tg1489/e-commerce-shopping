@@ -122,8 +122,16 @@ const Summary = styled.div`
   height: 50vh; // So when you add more prods, the entire box grows accordingly.
 `;
 
-const SummaryTitle = styled.h1``;
-const SummaryItem = styled.div``;
+const SummaryTitle = styled.h1`
+  font-weight: 200;
+`;
+const SummaryItem = styled.div`
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: ${(props) => (props.type === 'total' ? '500' : '')};
+  font-size: ${(props) => props.type === 'total' && '24px'};
+`;
 const SummaryItemText = styled.span``;
 const SummaryItemPrice = styled.span``;
 const Button = styled.button``;
@@ -167,7 +175,7 @@ export default function Cart() {
                   <ProductAmount>2</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 220</ProductPrice>
+                <ProductPrice>$220</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
@@ -193,7 +201,7 @@ export default function Cart() {
                   <ProductAmount>1</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 25</ProductPrice>
+                <ProductPrice>$25</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
@@ -201,19 +209,19 @@ export default function Cart() {
             <SummaryTitle>ORDER SUMMARY</SummaryTitle>
             <SummaryItem>
               <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>$ 245</SummaryItemPrice>
+              <SummaryItemPrice>$245</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Estimated Shipping</SummaryItemText>
-              <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+              <SummaryItemPrice>$5.90</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+              <SummaryItemPrice>$-5.90</SummaryItemPrice>
             </SummaryItem>
-            <SummaryItem>
-              <SummaryItemText type='total'>Total</SummaryItemText>
-              <SummaryItemPrice>$ 245</SummaryItemPrice>
+            <SummaryItem type='total'>
+              <SummaryItemText>Total</SummaryItemText>
+              <SummaryItemPrice>$245</SummaryItemPrice>
             </SummaryItem>
             <Button>CHECKOUT NOW</Button>
           </Summary>
