@@ -119,6 +119,7 @@ const Summary = styled.div`
   border: 0.5px solid lightgray;
   border-radius: 10px;
   padding: 20px;
+  height: 50vh; // So when you add more prods, the entire box grows accordingly.
 `;
 
 const SummaryTitle = styled.h1``;
