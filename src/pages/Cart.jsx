@@ -116,13 +116,16 @@ const Hr = styled.hr`
 
 const Summary = styled.div`
   flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
 `;
 
 const SummaryTitle = styled.h1``;
 const SummaryItem = styled.div``;
 const SummaryItemText = styled.span``;
 const SummaryItemPrice = styled.span``;
-const SummaryButton = styled.button``;
+const Button = styled.button``;
 
 export default function Cart() {
   return (
