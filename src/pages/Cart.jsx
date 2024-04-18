@@ -118,6 +118,12 @@ const Summary = styled.div`
   flex: 1;
 `;
 
+const SummaryTitle = styled.h1``;
+const SummaryItem = styled.div``;
+const SummaryItemText = styled.span``;
+const SummaryItemPrice = styled.span``;
+const SummaryButton = styled.button``;
+
 export default function Cart() {
   return (
     <Container>
