@@ -9,11 +9,11 @@ import Cart from './pages/Cart';
 export default function App() {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       {/* <Product /> */}
       {/* <Register /> */}
       {/* <Login /> */}
-      <Cart />
+      {/* <Cart /> */}
     </div>
   );
 }
