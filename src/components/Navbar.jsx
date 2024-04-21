@@ -6,13 +6,12 @@ import Badge from '@mui/material/Badge';
 import Stack from '@mui/material/Stack';
 import MailIcon from '@mui/icons-material/Mail';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { mobile } from '../utils/responsive';
 
 // Styled-Components
 const Container = styled.div`
   height: 60px;
-  @media only screen and (max-width: 380px) {
-    
-  }
+  ${mobile({ backgroundColor: 'red' })}
 `;
 
 const Wrapper = styled.div`
