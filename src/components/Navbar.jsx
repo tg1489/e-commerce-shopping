@@ -54,6 +54,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
+  ${mobile({ fontSize: '24px' })}
 `;
 
 const Right = styled.div`
@@ -76,7 +77,7 @@ export default function Navbar() {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input placeholder='Search'/>
+            <Input placeholder='Search' />
             <Search className='search' />
           </SearchContainer>
         </Left>
