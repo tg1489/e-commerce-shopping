@@ -3,6 +3,7 @@ import { styled } from 'styled-components';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import { ArrowRightOutlined } from '@mui/icons-material';
 import { sliderItems } from '../utils/data';
+import { mobile } from '../utils/responsive';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -11,6 +12,7 @@ const Container = styled.div`
   display: flex;
   position: relative; // parent arrows
   overflow: hidden; // hides slider so you have to click it in order to get to next slide
+  ${mobile({ display: 'none' })}
 `;
 
 const Wrapper = styled.div`
