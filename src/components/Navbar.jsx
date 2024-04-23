@@ -19,6 +19,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  ${mobile({ padding: '10px' })}
 `;
 
 const Left = styled.div`
