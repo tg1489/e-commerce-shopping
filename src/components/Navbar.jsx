@@ -44,6 +44,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  ${mobile({ width: '50px' })}
 `;
 
 const Center = styled.div`
@@ -75,7 +76,7 @@ export default function Navbar() {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input />
+            <Input placeholder='Search'/>
             <Search className='search' />
           </SearchContainer>
         </Left>
