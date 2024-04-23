@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  ${mobile({ padding: '10px' })}
+  ${mobile({ padding: '10px 0px' })}
 `;
 
 const Left = styled.div`
@@ -31,6 +31,7 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
+  ${mobile({ display: 'none' })}
 `;
 
 const SearchContainer = styled.div`
