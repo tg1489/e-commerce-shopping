@@ -11,7 +11,7 @@ import { mobile } from '../utils/responsive';
 // Styled-Components
 const Container = styled.div`
   height: 60px;
-  ${mobile({ backgroundColor: 'red' })}
+  ${mobile({ height: '50px' })}
 `;
 
 const Wrapper = styled.div`
