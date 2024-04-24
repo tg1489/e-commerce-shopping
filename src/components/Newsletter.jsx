@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import SendIcon from '@mui/icons-material/Send';
+import { mobile } from '../utils/responsive';
 
 export default function Newsletter() {
   const Container = styled.div`
@@ -15,6 +16,7 @@ export default function Newsletter() {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 20px;
+    ${mobile({ textAlign: 'center' })}
   `;
   const Title = styled.h1`
     font-size: 70px;
