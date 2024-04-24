@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
+import { mobile } from '../utils/responsive';
 
 const Container = styled.div`
   flex: 1; // images will grow to fill space.
@@ -11,6 +12,7 @@ const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover; // crops squished images to fix aspect ration
+  ${mobile({ height: '50vh' })}
 `;
 const Info = styled.div`
   position: absolute;
