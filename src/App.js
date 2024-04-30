@@ -9,10 +9,10 @@ import Cart from './pages/Cart';
 export default function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       {/* <Product /> */}
       {/* <Register /> */}
-      {/* <Login /> */}
+      <Login />
       {/* <Cart /> */}
     </div>
   );
