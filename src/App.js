@@ -5,6 +5,7 @@ import Product from './pages/Product';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Cart from './pages/Cart';
+import ProductList from './pages/ProductList';
 
 export default function App() {
   return (
@@ -12,8 +13,9 @@ export default function App() {
       {/* <Home /> */}
       {/* <Product /> */}
       {/* <Register /> */}
-      <Login />
+      {/* <Login /> */}
       {/* <Cart /> */}
+      <ProductList />
     </div>
   );
 }
