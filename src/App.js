@@ -13,9 +13,9 @@ export default function App() {
       {/* <Product /> */}
       {/* <Register /> */}
       {/* <Login /> */}
-      {/* <Cart /> */}
+      <Cart />
       {/* <ProductList /> */}
-      <Product />
+      {/* <Product /> */}
     </div>
   );
 }
