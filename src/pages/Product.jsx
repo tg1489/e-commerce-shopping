@@ -5,12 +5,14 @@ import Navbar from '../components/Navbar';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import { Add, Remove } from '@mui/icons-material';
+import { mobile } from '../utils/responsive';
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+  ${mobile({ flexDirection: 'column', padding: '10px' })}
 `;
 
 const ImgContainer = styled.div`
